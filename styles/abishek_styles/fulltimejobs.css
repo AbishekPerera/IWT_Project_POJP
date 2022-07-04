@@ -10,14 +10,7 @@
 
 }
 
-
-.forhideheader {
-    width: 100%;
-    height: 125px;
-}
-
 .fulltime-maincontainer {
-
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -149,4 +142,8 @@
 .active {
     background-color: #577296;
     
+}
+
+.ftjmaincontainer{
+    width: 100%;
 }
