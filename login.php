@@ -1,57 +1,20 @@
 <?php
-include 'header.php';
+    include'header.php';
 ?>
 
-
-<div class="loginfm" style="width: 100%; height: 700px; background-image: url('images/abishek_images/login/loginpage.jpg')">
-
-    <div class=loginform>
-
-        <form action="#">
-            <h2>
-                Login
-            </h2>
-            <div class="loginbox">
-                <input type="text" required>
-                <span>User Name</span>
+    <div class="lgmaincontainerad">
+        <div class="lgselectioncontainer">
+            <div class="lgselection1">
+                <img src="images/select1.png" class="lgselctimg">
+                <a href="jslogin.php"><button type="button" class="lgchoosebtttn">I am Job Seeker</button></a>
             </div>
-
-            <div class="loginbox">
-                <input type="password" required>
-                <span>Password</span>
+            <div class="lgselection2">
+                <img src="images/select2.png" class="lgselctimg">
+                <a href="cmlogin.php"><button type="button" class="lgchoosebtttn">I am Employer</button></a>
             </div>
-
-            <div class="loginsubmit">
-                <button type="submit">Login</button>
-            </div>
-
-            <div class="loginremember">
-            <span>New</span> <span class="pwd"><a href="#">User?</a></span>
-            </div>
-
-            <div class="logincancel">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <span>Forgot</span> <span class="pwd"><a href="#">password?</a></span>
-            </div>
-
-
-
-        </form>
-
-
-
+        </div>
     </div>
 
-
-
-
-
-
-
-
-
-</div>
-
 <?php
-include 'footer.php';
+    include'footer.php';
 ?>

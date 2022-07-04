@@ -3,7 +3,6 @@
 ?>
 
 <div class="contactUsBody" style="background-image: url('images/abishek_images/contactus/bg.jpg') ">
-    <div class="forHidden"></div>
 
     <div class="pageContent">
         <div class="contactusmaintital">
@@ -78,11 +77,11 @@
             <div class="border">
             </div>
 
-            <form action="#" class="contactusFormForm">
-                <input type="text" class="con_input_text" placeholder="Your Name" required>
-                <input type="email" class="con_input_text" placeholder="Your Email" required>
-                <input type="tel" class="con_input_text" placeholder="Your Phone" required>
-                <textarea class="con_input_text" placeholder="Your Message" required></textarea>
+            <form action="contactusvalidation.php" class="contactusFormForm" method="GET">
+                <input type="text" class="con_input_text" placeholder="Your Name" name = "name" required>
+                <input type="email" class="con_input_text" placeholder="Your Email" name = "email" required>
+                <input type="text" class="con_input_text" placeholder="Your Phone" name = "contact" required>
+                <textarea class="con_input_text" placeholder="Your Message" name = "msg" required></textarea>
                 <input type="submit" class="con_input_submit" value="Send Message">
             </form>
         </div>

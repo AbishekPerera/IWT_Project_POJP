@@ -1,11 +1,9 @@
 <?php
-include 'header.php';
+    include 'header.php';
 ?>
 
+<div class="ftjmaincontainer">
 <div class="fulltimetab" style="background-image: url('images/abishek_images/fulltime/fulltimebg.jpg');">
-    <div class="forhideheader">
-    </div>
-
     <div>
         <div class="fulltime-maincontainer">
             <div class="fulltime-tital">
@@ -73,7 +71,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 36";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -93,7 +103,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 37";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -113,7 +135,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 38";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -134,7 +168,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 39";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -155,7 +201,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 40";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -177,7 +235,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 41";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -200,16 +270,24 @@ include 'header.php';
 
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 42";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
 
-
-
                         <!--end of ads-->
-
-
 
                         <!--add 1-->
                         <div class="all dm">
@@ -226,7 +304,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 43";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -246,7 +336,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 44";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -266,7 +368,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 45";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -287,7 +401,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 46";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -308,7 +434,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 47";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -330,7 +468,19 @@ include 'header.php';
                                 </h2>
 
 
-                                <button type="button" class="readmorebtn">Read All</button>
+                                <?php
+                                    $sql = "select * from job where job_id = 48";
+                                    $result = $conn->query($sql);
+
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
+
                             </div>
 
                         </div>
@@ -351,41 +501,55 @@ include 'header.php';
                                     Writing & Translation
                                 </h2>
 
+                                <?php
+                                    $sql = "select * from job where job_id = 49";
+                                    $result = $conn->query($sql);
 
+                                    if($result->num_rows > 0){
+                                        while($row = $result->fetch_assoc()){
+                                            echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button type='button' class='readmorebtn'>Read All</button></a>";
+                                    }
+                                    }else{
+                                        echo "Not Available";
+                                    }
+                                ?>
 
-                                <button type="button" class="readmorebtn">Read All</button>
                             </div>
-
                         </div>
-
-
-
                         <!--end of ads-->
 
-
-
-
-
-
-
-
-
+                        
                     </div>
                 </div>
-
-
-
             </div>
-
         </div>
     </div>
+</div>
+</div>
 
+<div class="ojseqsection">
+<div class="ojseqmiddlesec">
+  
+<?php
+  $sql = "select * from job where job_id > 59  AND category = 'Full Time'";
 
-
-
-
+  $result = $conn->query($sql);
+  
+  if($result->num_rows>0){
+    while($row = $result->fetch_assoc()){
+      echo "<div class='ojcard'><img id='ojcardimg' src='images/logo.png'><p class='ojcardsate'>We're hiring</p>";
+      echo "<p class='ojcardtitle'>".$row['job_title']."</p>";
+      echo "<a href='moredetailsdynamic.php?jid=$row[job_id]'><button class='ojcardmorebttn' type='button'>More Details</button></a></div>";
+    }
+    
+  }
+?>
+  </div>
 </div>
 
 <?php
-include 'footer.php';
+    include 'footer.php';
 ?>
+
+
+
